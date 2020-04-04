@@ -1,0 +1,31 @@
+nav {
+  background-color: rgb(164, 179, 182);
+  background: linear-gradient(to bottom, #777 0%, #fff 100%);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem 1.5rem;
+  color: #2a1b3d;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #44318d;
+  color: #a4b3b6;
+}
+
+nav .active {
+  background-color: #44318d;
+  color: #a4b3b6;
+}
